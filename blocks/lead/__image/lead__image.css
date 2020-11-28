@@ -1,0 +1,9 @@
+.lead__image {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    background: url(/images/lead-polka.jpg);
+    background-size: cover;
+    min-height: 615px;
+}
+
