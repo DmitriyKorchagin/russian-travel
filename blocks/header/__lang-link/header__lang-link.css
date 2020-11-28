@@ -6,5 +6,7 @@
     /* identical to box height, or 117% */
     text-align: right;
     color: #FFFFFF;
-    align-items: end;
+    text-decoration: none;
+    margin-left: 14px;
+    
 }
