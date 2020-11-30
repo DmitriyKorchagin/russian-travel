@@ -1,5 +1,6 @@
 .photo-grid {
     margin-top: 92px;
+    /* margin-bottom: 100px; */
     display: grid;
     max-width: 1184px;
     min-height: 671px;

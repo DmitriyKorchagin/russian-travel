@@ -1,0 +1,14 @@
+.place__title {
+    display: flex;
+    align-items: flex-end;
+    max-width: 460px;
+    min-height: 152px;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 106%;
+    margin: 0;
+    padding: 0;
+    align-self: auto;
+    grid-area: place__title;
+    
+}       
