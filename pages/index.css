@@ -35,8 +35,17 @@
 @import url(../blocks/place/__paragraph-contain/place__paragraph-contain.css);
 @import url(../blocks/place/__paragraph-contain/_top/place__paragraph_top.css);
 @import url(../blocks/place/__paragraph-contain/_bottom/place__paragraph_bottom.css);
-
 /* cover styles */
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
+@import url(../blocks/cover/__overlay/cover__overlay.css);
+@import url(../blocks/cover/__background/cover__background.css);
+/* footer styles */
+@import url(../blocks/);
+@import url(../blocks/);
+
+
 @import url(../blocks/);
 
 

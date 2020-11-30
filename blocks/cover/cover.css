@@ -1,0 +1,15 @@
+.cover {
+    max-width: 92.5%;
+    min-height: 740px;
+    padding-top: 245px;
+    /* width: 92.5%; */
+    /* min-height: 740px; */
+    background-image: url(../../../images/cover-trains.jpg);
+    background-size: cover;
+    margin: 0 auto;
+    position: relative;
+    background-repeat: no-repeat;
+    border: 1px solid red;
+    
+
+}
