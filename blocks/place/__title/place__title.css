@@ -11,4 +11,11 @@
     align-self: auto;
     grid-area: place__title;
     
-}       
+}  
+
+@media screen and (max-width: 1024px) {
+	.place__image {
+        max-width: 440px;
+        
+    }
+}

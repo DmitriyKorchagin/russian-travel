@@ -3,7 +3,7 @@
     display: grid;
     max-width: 984px;
     max-height: 660px;
-    grid-template-columns: repeat(1, 460px 1, 484px);
+    grid-template-columns: 460px fit-content(484px);
     grid-template-rows: repeat(2, fr);
     column-gap: 40px;
     row-gap: 48px;
@@ -11,4 +11,12 @@
     "place__title place__website"
     "place__image place__paragraph-contain";
     
+}
+
+@media screen and (max-width: 1024px) {
+	.place {
+        max-width: 928px;
+        max-height: 640px;
+        grid-template-columns: 440px fit-content(456px);
+    } 
 }

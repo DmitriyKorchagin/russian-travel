@@ -1,9 +1,16 @@
 .intro {
     display: flex;
     flex-direction: column;
-    max-width: 984px;
+    max-width: 690px;
     max-height: 1005px;
     position: relative;
     right: 147px;
     margin-top: 92px;
+}
+
+@media screen and (max-width: 1024px) {
+	.intro {
+        max-height: 984px;
+		right: 119px;
+	}
 }
