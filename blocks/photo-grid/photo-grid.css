@@ -15,10 +15,33 @@
 
 @media screen and (max-width: 1024px) {
 	.photo-grid {
-        padding: 0 3.75%;
-        max-width: 928px;
+        max-width: 1024px;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         grid-template-rows: repeat(auto-fit, minmax(225px, 1fr));
         gap: 14px;
+        min-height: 942px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+    
+	.photo-grid {
+        max-width: 768px;
+        margin-top: 88px;
+        min-height: 720px;
+        grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
+        grid-template-rows: repeat(auto-fit, minmax(264px, 1fr));
+        gap: 16px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+    
+	.photo-grid {
+        max-width: 320px;
+        margin-top: 64px;
+        /* min-height: 720px; */
+        grid-template-rows: repeat(auto-fit, minmax(288px, 1fr));
+        gap: 12px;
 	}
 }

@@ -14,3 +14,11 @@
         max-width: 928px;
 	}
 }
+
+@media screen and (max-width: 768px) {
+	.header {
+        width: calc(100% - (24px*2));
+        max-width: 752px;
+	}
+}
+

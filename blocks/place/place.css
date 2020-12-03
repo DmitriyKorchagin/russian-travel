@@ -2,7 +2,7 @@
     margin: 0 auto;
     display: grid;
     max-width: 984px;
-    max-height: 660px;
+    height: auto;
     grid-template-columns: 460px fit-content(484px);
     grid-template-rows: repeat(2, fr);
     column-gap: 40px;
@@ -16,7 +16,16 @@
 @media screen and (max-width: 1024px) {
 	.place {
         max-width: 928px;
-        max-height: 640px;
+        /* max-height: 640px; */
         grid-template-columns: 440px fit-content(456px);
+    } 
+}
+
+@media screen and (max-width: 768px) {
+	.place {
+        max-width: 720px;
+        height: auto;
+        grid-template-columns: 340px fit-content(352px);
+        
     } 
 }
