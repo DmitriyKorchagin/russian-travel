@@ -1,5 +1,5 @@
 .footer {
-    width: calc(100% - (48px*2));
+    /* width: calc(100% - (48px*2)); */
     max-width: 1184px;
     margin: 0 auto 12px;
     display: flex;
@@ -12,5 +12,11 @@
 @media screen and (max-width: 1024px) {
 	.footer {
         max-width: 928px;
+    }
+}
+
+@media (max-width: 768px) {
+	.footer {
+        max-width: 720px;
     }
 }

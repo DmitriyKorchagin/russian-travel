@@ -1,13 +1,14 @@
 .place__title {
     display: flex;
     align-items: flex-end;
+    width: 100%;
     max-width: 460px;
     font-weight: 900;
     font-size: 72px;
     line-height: 106%;
     margin: 0;
     padding: 0;
-    align-self: auto;
+    /* align-self: auto; */
     grid-area: place__title;
     
 }  
@@ -15,6 +16,7 @@
 @media screen and (max-width: 1024px) {
 	.place__title {
         max-width: 440px;
+        height: auto;
         
     }
 }
@@ -25,5 +27,16 @@
         font-size: 42px;
         line-height: 1.1;
         
+    }
+}
+
+@media screen and (max-width: 320px) {
+	.place__title {
+        width: 100%;
+        max-width: 288px;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 109%;
+        justify-content: flex-start;
     }
 }

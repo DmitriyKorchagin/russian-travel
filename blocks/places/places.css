@@ -5,9 +5,17 @@
     row-gap: 80px;
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
 	.place {
         row-gap: 73px;
+        
+    } 
+}
+
+@media (max-width: 320px) {
+	.place {
+        row-gap: 49px;
+        justify-items: center;
         
     } 
 }

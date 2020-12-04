@@ -1,47 +1,41 @@
 .photo-grid {
-    margin-top: 92px;
-    /* margin-bottom: 100px; */
-    display: grid;
-    padding: 0 3.75%;
-    /* width: calc(100% - (48px*2)); */
-    max-width: 1184px;
-    min-height: 671px;
-    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
-    grid-template-rows: repeat(auto-fit, minmax(213px, 1fr));
-    /* grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 1fr); */
-    gap: 16px;
+        margin-top: 92px;
+        display: grid;
+        width: 100%;
+        max-width: 1184px;
+        min-height: 671px;
+        grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+        grid-template-rows: repeat(auto-fit, minmax(213px, 1fr));
+        gap: 16px;
 }
 
 @media screen and (max-width: 1024px) {
 	.photo-grid {
-        max-width: 1024px;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        grid-template-rows: repeat(auto-fit, minmax(225px, 1fr));
-        gap: 14px;
-        min-height: 942px;
+                max-width: 1024px;
+                grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+                grid-template-rows: repeat(auto-fit, minmax(225px, 1fr));
+                gap: 14px;
+                min-height: 942px;
 	}
 }
 
 @media screen and (max-width: 768px) {
-    
-	.photo-grid {
-        max-width: 768px;
-        margin-top: 88px;
-        min-height: 720px;
-        grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
-        grid-template-rows: repeat(auto-fit, minmax(264px, 1fr));
-        gap: 16px;
+        .photo-grid {
+                max-width: 768px;
+                margin-top: 88px;
+                min-height: 720px;
+                grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
+                grid-template-rows: repeat(auto-fit, minmax(264px, 1fr));
+                gap: 16px;
 	}
 }
 
 @media screen and (max-width: 320px) {
-    
-	.photo-grid {
-        max-width: 320px;
-        margin-top: 64px;
-        /* min-height: 720px; */
-        grid-template-rows: repeat(auto-fit, minmax(288px, 1fr));
-        gap: 12px;
+        .photo-grid {
+                max-width: 288px;
+                margin-top: 64px;
+                grid-template-columns: 1fr;
+                grid-template-rows: repeat(auto-fit, minmax(216px, 1fr));
+                gap: 12px;
 	}
 }

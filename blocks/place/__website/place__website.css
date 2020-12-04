@@ -5,3 +5,9 @@
     grid-area: place__website;
     
 }
+
+@media screen and (max-width: 320px) {
+    .place__website {
+        display: none;
+    }
+}
