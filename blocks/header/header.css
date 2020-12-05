@@ -2,8 +2,9 @@
         display: flex;
         justify-content: space-between;
         align-items: flex-end;
-        width: 100%;
-        max-width: 1184px;
+        width: 90.04%;
+        /* width: 100%;
+        max-width: 1184px; */
         max-height: 52px;
         margin: 0;
 }

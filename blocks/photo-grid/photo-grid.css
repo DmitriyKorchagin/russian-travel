@@ -21,9 +21,9 @@
 
 @media screen and (max-width: 768px) {
         .photo-grid {
-                max-width: 768px;
+                max-width: 720px;
                 margin-top: 88px;
-                min-height: 720px;
+                min-height: 1664px;
                 grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
                 grid-template-rows: repeat(auto-fit, minmax(264px, 1fr));
                 gap: 16px;
