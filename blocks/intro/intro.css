@@ -6,6 +6,7 @@
         position: relative;
         right: 147px;
         margin-top: 92px;
+        box-sizing: border-box;
 }
 
 @media screen and (max-width: 1024px) {

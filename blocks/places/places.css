@@ -3,6 +3,7 @@
     display: grid;
     grid-template-rows: repeat(4, 1fr);
     row-gap: 80px;
+    box-sizing: border-box;
 }
 
 @media (max-width: 768px) {

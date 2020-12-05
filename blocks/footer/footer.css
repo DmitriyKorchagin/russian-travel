@@ -6,6 +6,7 @@
     flex-direction: row;
     justify-content: space-between;
     max-height: 18px;
+    box-sizing: border-box;
     
 }
 
@@ -21,21 +22,15 @@
     }
 }
 
-@media screen and (max-width: 572px) {
-	.footer {
-        max-width: 186px;
-        flex-direction: column;
-        min-height: 310px;
-        margin-left: 16px;
-    }
-}
-
 
 @media screen and (max-width: 320px) {
 	.footer {
-        max-width: 186px;
+        /* max-width: 186px; */
         flex-direction: column;
         min-height: 310px;
-        margin-left: 16px;
+        margin: 0;
+        padding-left: 16px;
+        padding-bottom: 24px;
+        box-sizing: border-box;
     }
 }
