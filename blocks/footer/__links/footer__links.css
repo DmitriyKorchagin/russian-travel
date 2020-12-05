@@ -5,3 +5,25 @@
     vertical-align: top;
     margin: 0;
 }
+
+@media screen and (max-width: 572px) {
+    .footer__links {
+        flex-direction: column;
+        padding-bottom: 32px;
+    }
+
+    .footer__links:last-of-type {
+        padding-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer__links {
+        flex-direction: column;
+        padding-bottom: 32px;
+    }
+
+    .footer__links:last-of-type {
+        padding-bottom: 0;
+    }
+}

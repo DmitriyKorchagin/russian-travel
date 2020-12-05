@@ -1,5 +1,5 @@
 .places {
-    margin: 100px 0;
+    margin: 92px 0;
     display: grid;
     grid-template-rows: repeat(4, 1fr);
     row-gap: 80px;
@@ -8,6 +8,8 @@
 @media (max-width: 768px) {
 	.place {
         row-gap: 73px;
+        margin-top: 88px;
+        margin-bottom: 90px;
         
     } 
 }
@@ -16,6 +18,7 @@
 	.place {
         row-gap: 49px;
         justify-items: center;
-        
+        margin-top: 64px;
+        margin-bottom: 66px;
     } 
 }

@@ -1,6 +1,6 @@
 .footer {
-    /* width: calc(100% - (48px*2)); */
     max-width: 1184px;
+    width: 100%;
     margin: 0 auto 12px;
     display: flex;
     flex-direction: row;
@@ -15,8 +15,27 @@
     }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
 	.footer {
         max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 572px) {
+	.footer {
+        max-width: 186px;
+        flex-direction: column;
+        min-height: 310px;
+        margin-left: 16px;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+	.footer {
+        max-width: 186px;
+        flex-direction: column;
+        min-height: 310px;
+        margin-left: 16px;
     }
 }
