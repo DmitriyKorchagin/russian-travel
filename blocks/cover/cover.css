@@ -21,8 +21,7 @@
     left: 0;
     bottom: 0;
     background-color: #2A2C2F;
-    ;
-	opacity: 0.33;
+    opacity: 0.33;
 }
 
 .cover:hover::before {
