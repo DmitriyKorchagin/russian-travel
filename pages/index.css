@@ -1,5 +1,7 @@
 /* vendor */
-@import url(/vendor/normalize.css);
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+
 /* page styles */
 @import url(../blocks/page/page.css);
 /* header styles */
@@ -40,14 +42,12 @@
 @import url(../blocks/cover/__link/cover__link.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../blocks/cover/__overlay/cover__overlay.css);
-@import url(../blocks/cover/__background/cover__background.css);
 /* footer styles */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__list/footer__list.css);
-
-@import url(../blocks/);
+@import url(../blocks/footer/__nav/footer__nav.css);
 
 

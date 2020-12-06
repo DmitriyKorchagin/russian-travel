@@ -8,13 +8,11 @@
     color: #FFFFFF;
     text-decoration: none;
     margin-left: 14px;
-    
 }
 
 .header__lang-link:hover {
     opacity: 0.8;
     transition: ease 0.3s;
-    
 }
 
 @media screen and (max-width: 320px) {

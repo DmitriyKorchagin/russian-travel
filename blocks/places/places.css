@@ -7,19 +7,18 @@
 }
 
 @media (max-width: 768px) {
-	.place {
+    .place {
         row-gap: 73px;
         margin-top: 88px;
         margin-bottom: 90px;
-        
-    } 
+    }
 }
 
 @media (max-width: 320px) {
-	.place {
+    .place {
         row-gap: 49px;
         justify-items: center;
         margin-top: 64px;
         margin-bottom: 66px;
-    } 
+    }
 }

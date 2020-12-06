@@ -10,37 +10,30 @@
     column-gap: 40px;
     row-gap: 48px;
     box-sizing: border-box;
-    grid-template-areas:
-    "place__title place__website"
-    "place__image place__paragraphs";
-    
+    grid-template-areas: "place__title place__website" "place__image place__paragraphs";
 }
 
 @media screen and (max-width: 1024px) {
-	.place {
+    .place {
         /* max-width: 928px; */
         grid-template-columns: 440px fit-content(456px);
-    } 
+    }
 }
 
 @media screen and (max-width: 768px) {
-	.place {
+    .place {
         max-width: 720px;
         grid-template-columns: 340px fit-content(352px);
-        
-    } 
+    }
 }
 
 @media screen and (max-width: 320px) {
-	.place {
+    .place {
         max-width: 320px;
         width: 100%;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(auto-fit, 1fr);
         row-gap: 32px;
-        grid-template-areas:
-        "place__title"
-        "place__image"
-        "place__paragraphs";
-    } 
+        grid-template-areas: "place__title" "place__image" "place__paragraphs";
+    }
 }
