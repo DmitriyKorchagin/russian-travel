@@ -19,8 +19,14 @@
 
 @media screen and (max-width: 1280px) {
     .places {
+        padding: 0 148px;
+        margin: 92px 0;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .places {
         padding: 0 48px;
-        margin: 92px auto 0;
     }
 }
 
@@ -32,11 +38,16 @@
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 625px) {
+    .places {
+        padding: 0 15px;
+    }
+}
+
+@media (max-width: 590px) {
     .places {
         padding: 0;
         row-gap: 49px;
-        justify-items: center;
         margin-top: 64px;
     }
 }

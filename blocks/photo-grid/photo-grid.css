@@ -39,7 +39,21 @@
 	}
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 655px) {
+	.photo-grid {
+		gap: 14px;
+		padding: 0 20px;
+		min-height: 1490px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.photo-grid {
+		min-height: 1290px;
+	}
+}
+
+@media screen and (max-width: 420px) {
 	.photo-grid {
 		margin-top: 64px;
 		grid-template-columns: 1fr;
