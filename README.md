@@ -1,4 +1,5 @@
-# Проект 3: [Путешествие по России]("https://dmitriykorchagin.github.io/russian-travel/index.html")
+## Проект 3: 
+# [Путешествие по России]("https://dmitriykorchagin.github.io/russian-travel/index.html")
 
 ## выполнил Дмитрий Корчагин
 
