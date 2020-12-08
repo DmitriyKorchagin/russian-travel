@@ -2,7 +2,7 @@
     align-self: flex-start;
 }
 
-@media screen and (max-width: 590px) {
+@media screen and (max-width: 630px) {
     .place__paragraphs {
         margin: auto;
         padding: 0 16px;
