@@ -1,5 +1,6 @@
 ## Проект 3: 
-# [Путешествие по России]("https://dmitriykorchagin.github.io/russian-travel/index.html")
+
+# [Путешествие по России](https://dmitriykorchagin.github.io/russian-travel/index.html)
 
 ## выполнил Дмитрий Корчагин
 
@@ -14,3 +15,5 @@ ___
 ### **Grid layot**
 ### **контроль версий Git, GitHub**
 
+http://github.com - automatic!
+[GitHub](http://github.com)
