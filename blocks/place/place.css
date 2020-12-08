@@ -14,6 +14,12 @@
     grid-template-areas: "place__title place__website" "place__image place__paragraphs";
 }
 
+@media screen and (max-width: 880px) {
+    .place {
+        column-gap: 30px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .place {
         column-gap: 28px;
@@ -27,7 +33,7 @@
     }
 }
 
-@media screen and (max-width: 590px) {
+@media screen and (max-width: 630px) {
     .place {
         width: 100%;
         grid-template-columns: 1fr;

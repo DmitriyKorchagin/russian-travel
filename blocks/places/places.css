@@ -24,9 +24,21 @@
     }
 }
 
+@media screen and (max-width: 1260px) {
+    .places {
+        padding: 0 7.5%;
+    }
+}
+
 @media screen and (max-width: 1024px) {
     .places {
         padding: 0 48px;
+    }
+}
+
+@media (max-width: 980px) {
+    .places {
+        padding: 0 26px;
     }
 }
 
@@ -38,13 +50,13 @@
     }
 }
 
-@media (max-width: 625px) {
+@media (max-width: 640px) {
     .places {
         padding: 0 15px;
     }
 }
 
-@media (max-width: 590px) {
+@media (max-width: 630px) {
     .places {
         padding: 0;
         row-gap: 49px;

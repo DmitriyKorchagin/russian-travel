@@ -60,5 +60,6 @@
 		grid-template-rows: repeat(auto-fit, minmax(216px, 1fr));
 		gap: 12px;
 		padding: 0 16px;
+		min-height: 2724px;
 	}
 }

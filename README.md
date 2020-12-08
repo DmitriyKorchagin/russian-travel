@@ -1,4 +1,4 @@
-# Проект 3: Путешествие по России
+# Проект 3: [Путешествие по России]("https://dmitriykorchagin.github.io/russian-travel/index.html")
 
 ## выполнил Дмитрий Корчагин
 
@@ -12,3 +12,4 @@ ___
 ### **Flex**
 ### **Grid layot**
 ### **контроль версий Git, GitHub**
+
